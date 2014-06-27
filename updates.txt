@@ -1,0 +1,23 @@
+frdev 1.0更新的内容：
+1.部分ioctl调用，用于用户程序实现更加快速的增删大量ip
+2.ioctl调用的重入优化
+3.hook to netfilter NF_INET_PRE_ROUTING，ip黑名单的功能
+4.读写锁优化
+
+目标：
+  目前仅实现了double hash table的一个实例，将来会增加一个实例用于ip白名单的管理
+  性能测试
+  优化用户空间的管理工具fripadm
+
+
+0.82版本更新：
+增加了自定义hash函数的功能，并添加hash函数的随机参数；
+数据结构改用malloc与destroy的方法，操作更加简洁；
+实现了双哈希表缓冲机制；
+hash表可在工作期间热rebuild；
+零碎的bug修复与函数优化；
+
+next targets：
+将系统移到内核态，解决并行、共享、锁的问题
+内核-用户接口
+系统优化与进一步的测试。
