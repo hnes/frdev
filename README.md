@@ -1,4 +1,10 @@
-## Usage:
+# Name
+
+frdev - A high efficient ip black/white firewall (work as a linux kernel module).
+
+Some details could get from [here](http://www.cnblogs.com/SwordTao/p/3824980.html).
+
+# Usage:
 
 ```bash
 make 
@@ -22,6 +28,8 @@ bash fripadm_white_in.sh dump
 bash unstall_frdev.sh
 ```
 
-## License
+# License
 
-Just fell free and do anything you want with it.
+Just feel free and do anything you want with it. 
+
+Good luck and happy!
