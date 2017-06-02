@@ -1,5 +1,6 @@
-Usage:
+##Usage:
 
+```bash
 make 
 bash install_frdev.sh
 ls -hl /dev/frdev*
@@ -19,4 +20,8 @@ bash fripadm_white_in.sh dump
 # # do what you want now :)
 
 bash unstall_frdev.sh
+```
 
+##License
+
+Just fell free and do anything you want with it.
