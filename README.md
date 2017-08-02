@@ -32,4 +32,4 @@ bash unstall_frdev.sh
 
 Just feel free and do anything you want with it. 
 
-Good luck and happy!
+Good luck and Joy!
