@@ -1,6 +1,6 @@
 # Name
 
-frdev - A high efficient ip black/white firewall (work as a linux kernel module).
+frdev - A high efficient ip black/white list firewall (work as a linux kernel module).
 
 Some details could get from [here](http://www.cnblogs.com/SwordTao/p/3824980.html).
 
